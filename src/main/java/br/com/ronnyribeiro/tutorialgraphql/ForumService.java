@@ -16,9 +16,19 @@ class ForumService {
         posts.put(newPost.id(), newPost);
         return posts.values();
     }
+
+    Post postById(String id) {
+        return posts.get(id);
+    }
 }
 
 @Service
 class CommentService {
-    
+    Map<String, Comment> comments = new HashMap<>();
+
+    Collection<Comment> createComment(String content, String postId) {
+        var newComment = new Comment(UUID.randomUUID().toString(), content, postId);
+        comments.put(newComment.id(), newComment);
+        return comments.values();
+    }
 }
