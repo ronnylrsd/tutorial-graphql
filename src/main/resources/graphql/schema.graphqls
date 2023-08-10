@@ -9,3 +9,12 @@ type Comment {
     content: String!
     postId: String!
 }
+
+type Query {
+    postById(id: ID!): Post
+}
+
+type Mutation {
+    createPost(content: String!): [Post]
+    createComment(content: String!, postId: ID!): [Comment]
+}
