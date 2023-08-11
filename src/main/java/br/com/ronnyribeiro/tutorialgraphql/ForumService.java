@@ -8,7 +8,7 @@ import java.util.UUID;
 import org.springframework.stereotype.Service;
 
 @Service
-class ForumService {
+class PostService {
     Map<String, Post> posts = new HashMap<>();
 
     Collection<Post> createPost(String content) {
