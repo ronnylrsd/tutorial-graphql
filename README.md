@@ -12,7 +12,7 @@
 
 <br>
 
-<img style="display: inline_block" src="https://github.com/ronnylrsd/tutorial-graphql/assets/63603061/826836d0-c08e-4d05-9224-ec24516ca08c"/>
+<img src="https://github.com/ronnylrsd/tutorial-graphql/assets/63603061/826836d0-c08e-4d05-9224-ec24516ca08c"/>
 
 ## 💻 Projeto
 
