@@ -31,4 +31,8 @@ class CommentService {
         comments.put(newComment.id(), newComment);
         return comments.values();
     }
+
+    public Collection<Comment> findByPost(String postId) {
+        return comments.values().stream().filter(c -> c.postId().equals(postId)).toList();
+    }
 }
