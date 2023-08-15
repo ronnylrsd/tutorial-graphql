@@ -14,7 +14,7 @@
 
 ## 💻 Projeto
 
-Projeto para entender mais sobre o Graphql, tutorial sobre como criar um serviço web com Graphql e Spring Boot com um back de posts e comentários.
+Projeto para entender mais sobre o Graphql que é uma alternativa ao REST utilizando Query's e Mutation's para fazer consultas e atualizações de dados, respectivamente, com um único endpoint, tutorial sobre como criar um serviço web com Graphql e Spring Boot com um back de posts e comentários.
 
 ## ✨ Tecnologias
 
